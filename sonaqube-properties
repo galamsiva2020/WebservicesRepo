@@ -1,0 +1,5 @@
+sonar.projectKey=webservices
+sonar.projectName=AWSWebservicestest
+sonar.projectVersion=1.1
+sonar.sources=src
+sonar.scm.disabled=true
