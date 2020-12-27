@@ -18,6 +18,12 @@
             <version>1.4</version>
         </dependency>
         <dependency>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>3.0.0-M5</version>
+          <type>maven-plugin</type>
+        </dependency>
+        <dependency>
             <groupId>axis</groupId>
             <artifactId>axis-jaxrpc</artifactId>
             <version>1.4</version>
@@ -58,12 +64,15 @@
             </plugin>
         </plugins>
     </build>
-    <organization>
+   <!-- <organization>
         <name>Hannon Hill</name>
         <url>http://hannonhill.com</url>
-    </organization>
+    </organization> -->
     <scm>
-        <connection>scm:git:git://github.com/hannonhill/Webservices-Java-Sample-Project.git</connection>
-        <url>https://github.com/hannonhill/Webservices-Java-Sample-Project</url>
+      <!--  <connection>scm:git:git://github.com/hannonhill/Webservices-Java-Sample-Project.git</connection>
+        <url>https://github.com/hannonhill/Webservices-Java-Sample-Project</url> -->
+        
+        <connection>scm:git:git://github.com/galamsiva2020/WebservicesRepo.git</connection>
+        <url>https://github.com/galamsiva2020/WebservicesRepo</url>
     </scm>
 </project>
